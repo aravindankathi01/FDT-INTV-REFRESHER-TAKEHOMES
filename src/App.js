@@ -7,6 +7,7 @@ import Flags from "./Components/Flags";
 import Form from "./Components/Form";
 import WeatherApp from "./Components/WeatherApp";
 import HomePage from "./Components/HomePage";
+import Timer from "./Components/Timer";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -37,6 +38,10 @@ function App() {
     {
       path: "/weatherapp",
       element: <WeatherApp />,
+    },
+    {
+      path: "/stopwatch",
+      element: <Timer />,
     },
   ]);
 
