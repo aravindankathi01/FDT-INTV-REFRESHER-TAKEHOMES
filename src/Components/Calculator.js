@@ -27,7 +27,7 @@ const Calculator = () => {
   //   setExpression(input);
   // }
   return (
-    <>
+    <div className='w-[80vw] flex flex-col justify-center items-center h-screen mx-auto gap-2'>
       <h1 className='text-2xl font-bold'>React Calculator</h1>
       <h1 className='border shadow-2xl bg-slate-50 rounded-md p-2 w-44 h-11'>
         {expression}
@@ -54,7 +54,7 @@ const Calculator = () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
 
