@@ -12,6 +12,8 @@ const HomePage = () => {
         <Link to='/form'>Full Name Display</Link>
         <Link to='/dropdown'>Location Selector App</Link>
         <Link to='/calculator'>React Calculator</Link>
+        <Link to='/spellcheck'>Spell Check and Auto-Correction</Link>
+        <Link to='/dictionary'>Dictionary Application</Link>
       </div>
     </div>
   );

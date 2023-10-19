@@ -8,6 +8,8 @@ import Form from "./Components/Form";
 import WeatherApp from "./Components/WeatherApp";
 import HomePage from "./Components/HomePage";
 import Timer from "./Components/Timer";
+import SpellCheck from "./Components/SpellCheck";
+import Dictionary from "./Components/Dictionary";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -42,6 +44,14 @@ function App() {
     {
       path: "/stopwatch",
       element: <Timer />,
+    },
+    {
+      path: "/spellcheck",
+      element: <SpellCheck />,
+    },
+    {
+      path: "/dictionary",
+      element: <Dictionary />,
     },
   ]);
 
