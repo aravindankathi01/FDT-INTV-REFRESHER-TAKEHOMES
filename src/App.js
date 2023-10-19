@@ -10,6 +10,7 @@ import HomePage from "./Components/HomePage";
 import Timer from "./Components/Timer";
 import SpellCheck from "./Components/SpellCheck";
 import Dictionary from "./Components/Dictionary";
+import Sort from "./Components/Sort";
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -52,6 +53,10 @@ function App() {
     {
       path: "/dictionary",
       element: <Dictionary />,
+    },
+    {
+      path: "/sort",
+      element: <Sort />,
     },
   ]);
 

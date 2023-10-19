@@ -15,6 +15,7 @@ const HomePage = () => {
         <Link to='/weatherapp'>WeatherApp</Link>
         <Link to='/spellcheck'>Spell Check and Auto-Correction</Link>
         <Link to='/dictionary'>Dictionary Application</Link>
+        <Link to='/sort'>Sort By Date and Views Table</Link>
       </div>
     </div>
   );
