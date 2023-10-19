@@ -20,7 +20,8 @@ const WeatherApp = () => {
   console.log(weatherData);
 
   return (
-    <div className='w-[80vw] mx-auto flex flex-col justify-center items-center mt-10'>
+    <div className='w-[80vw] mx-auto flex flex-col justify-center items-center mt-10 gap-3'>
+      <h1 className='text-2xl font-bold'>Weather Application</h1>
       <div>
         <input
           type='text'
